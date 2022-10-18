@@ -1,0 +1,441 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.gold {
+  color: gold;
+  font-size: 30px;
+  padding: 0 0 0;
+  margin: 0;
+}
+.firstGold {
+  color: gold;
+  font-size: 30px;
+  text-align: center;
+}
+.secondGold {
+  color: gold;
+  font-size: 20px;
+  text-align: center;
+}
+#middle {
+  font-size: 40px;
+  text-align: center;
+  width: 30%;
+  padding-left: 35%;
+}
+.middles {
+  text-align: center;
+
+  height: 400px;
+}
+#pocetna {
+  padding-left: 50%;
+  display: flex;
+  background: linear-gradient(to top, #ffec64 5%, #ffab23 100%);
+  border-bottom: 1px solid black;
+}
+#pocetna h4 {
+  color: black;
+  display: flex;
+  padding-left: 20px;
+  position: relative;
+  left: 90px;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  transform-origin: bottom;
+}
+.nextmiddle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+.card1 {
+  margin-left: 30px;
+}
+.cards {
+  height: 100px;
+  width: 30%;
+  margin-top: 30px;
+}
+
+#banner span:hover {
+  border-right: 3px solid;
+}
+.konsultacije h2 {
+  color: #fafad2;
+  font-size: 30px;
+  margin-top: 30px;
+}
+.konsultacije {
+  background: linear-gradient(to bottom, #8b4513 5%, #a0522d 95%);
+  color: gold;
+  height: 280px;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+.konsultacije:hover {
+  background-image: linear-gradient(to top right, #a0522d, #8b4513);
+}
+.konsultacije h1 {
+  font-size: 60px;
+  padding-top: 20px;
+  text-shadow: 2px 2px 5px black;
+}
+.button2 {
+  margin-top: 30px;
+}
+.navy h4 {
+  color: inherit;
+  position: relative;
+  padding-left: 10px;
+}
+.navy h4:active {
+  animation-name: bounce;
+  animation-timing-function: ease;
+}
+.navy h4:hover {
+  text-decoration-line: underline;
+  text-decoration-color: red;
+}
+@keyframes h4 {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.navy h2 {
+  color: #ffe4c4;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 100px;
+  text-shadow: 2px 2px 5px black;
+  text-decoration-line: underline;
+  text-decoration-color: red;
+}
+
+.navy h3 {
+  font-size: 60px;
+  text-align: center;
+  top: 100px;
+  position: relative;
+  text-shadow: 2px 2px 5px black;
+}
+.navy span {
+  position: relative;
+}
+#insider {
+  padding-left: 30%;
+  width: 40%;
+  color: gold;
+}
+#dugme {
+  padding-left: 46%;
+  padding-top: 10%;
+}
+#nextmiddle {
+  height: 700px;
+}
+
+.naslov {
+  display: flex;
+  align-items: center;
+  color: black;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+.naslov h1:hover {
+  text-decoration-line: underline;
+  text-decoration-color: black;
+}
+.inputs {
+  position: relative;
+  left: 50%;
+}
+
+footer img {
+  width: 3%;
+  height: 3%;
+  padding-left: 10%;
+}
+.par {
+  font-size: 30px;
+}
+
+.myButton {
+  box-shadow: 0px 1px 4px -15px #fff6af;
+  background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color: #ffec64;
+  border-radius: 6px;
+  border: 1px solid #ffaa22;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px -1px 0px #ffee66;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color: #ffab23;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+#footer {
+  display: flex;
+  padding-top: 20px;
+  position: relative;
+}
+#footer p {
+  color: white;
+  font-size: 20px;
+}
+
+#footer li {
+  padding-left: 10px;
+  margin-left: 40px;
+  padding-top: 20px;
+  position: relative;
+  background-attachment: fixed;
+}
+#footer li:hover {
+  text-shadow: 2px 2px 5px black;
+}
+
+.bio img:hover {
+  opacity: 0.3;
+}
+.bio img:hover + .hide {
+  display: block;
+}
+.hide {
+  font-size: 20px;
+  position: absolute;
+  font-weight: bold;
+  top: 110px;
+  left: 75%;
+  width: 150px;
+  display: none;
+}
+
+.flexcontainer li {
+  padding-top: 15px;
+  padding-left: 15px;
+  font-size: 30px;
+  margin-left: 5%;
+}
+.flexcontainer img {
+  position: absolute;
+  top: 20px;
+  left: 70%;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 3px solid gold;
+}
+.flexcontainer {
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 40px;
+}
+.upoznavanje {
+  height: 30px;
+  padding: 15px;
+  text-align: center;
+  text-decoration-line: underline;
+  text-decoration-color: sienna;
+}
+
+.flexcontainer a {
+  text-decoration-line: none;
+  color: inherit;
+}
+.flexcontainer a:hover {
+  text-decoration-line: underline;
+  text-decoration-color: black;
+}
+@media (max-width: 320px) {
+  .flexcontainer {
+    display: block;
+  }
+}
+
+.navy {
+  height: 850px;
+  background-image: url("https://www.totallylegal.com/getasset/c3ee2a89-b973-445f-9337-1ca05736c950/");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#banner {
+  height: 40px;
+  padding-left: 42%;
+  background-color: #fafad2;
+  border: 2px solid #8b4513;
+}
+span ~ span {
+  padding-left: 100px;
+}
+.naplata {
+  height: 640px;
+  background: linear-gradient(to top, #8b4513, #a0522d);
+  padding-bottom: 30px;
+}
+.naplataUvod {
+  padding-top: 70px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.naplataUvod h1 {
+  font-size: 50px;
+  color: gold;
+  text-shadow: 2px 2px 5px black;
+}
+.naplataUvod h2 {
+  color: #fafad2;
+  font-size: 35px;
+}
+.naplatnaKartica h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: gold;
+  text-shadow: 2px 2px 5px black;
+}
+.naplatnaKartica p {
+  color: #fafad2;
+  text-align: center;
+}
+.items {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.Kartice {
+  align-self: center;
+  height: 250px;
+  width: 30%;
+  padding-left: 20px;
+}
+.number {
+  font-weight: bold;
+  margin-left: 40%;
+  height: 40px;
+  padding-top: 25px;
+  width: 70px;
+  border: 2px solid gold;
+  border-radius: 20px;
+  background-color: #fafad2;
+  color: black;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.Blog {
+  background: linear-gradient(to bottom, #ffdab9 50%, #fff8dc);
+  height: 1040px;
+  border: 1px solid gold;
+}
+.Blognaslov {
+  padding-top: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.Blognaslov h1 {
+  font-size: 40px;
+  color: black;
+  font-weight: black;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.Blognaslov h3 {
+  font-size: 25px;
+  color: #fafad2;
+  text-shadow: 2px 2px 5px black;
+  text-decoration-line: underline;
+  text-decoration-color: red;
+  font-weight: bold;
+}
+.Blogkartice {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.karticeZaBlog {
+  border: 1px solid black;
+  border-radius: 20px;
+  align-self: center;
+  height: 320px;
+  width: 25%;
+  padding-left: 20px;
+  position: relative;
+}
+.karticeZaBlog:hover {
+  background: linear-gradient(to top right, #ffab23 5%, #ffec64 100%);
+}
+
+.saznajte:hover {
+  margin-bottom: 8px;
+}
+.BlogKartice2red {
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.copyright {
+  text-align: center;
+  color: white;
+  margin-top: 25px;
+  padding-top: 20px;
+  text-shadow: 2px 2px 5px black;
+}
+.myButton2 {
+  box-shadow: inset 0px 1px 0px 0px #ffffff;
+  background: linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+  background-color: #ededed;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  display: inline-block;
+  cursor: pointer;
+  color: black;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+.myButton2:hover {
+  background: linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+  background-color: #dfdfdf;
+}
+.myButton2:active {
+  position: relative;
+  top: 1px;
+}
